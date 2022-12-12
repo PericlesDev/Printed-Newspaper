@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: "Merriweather", serif; }
+ 
+
+body {
+  box-sizing: border-box;
+  color: #222;
+  background: #faf8e9; }
+  
+
+img {
+max-width: 100%;
+margin-bottom: 20px;
+transition: all .4s;
+}
+
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+header {
+  border-bottom: solid 2px #222;
+  margin-bottom: 30px;
+  padding-bottom: 30px; }
+  header .logo {   
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-size: 9rem;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-bottom: 50px; }
+  header .sub {
+    display: flex;
+    justify-content: space-between; }
+
+h1, h2, h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px; }
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 100%; }
+
+h2 {
+  font-size: 4.5rem;
+  line-height: 90%; }
+
+.serif {
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  line-height: 100%; }
+
+p, .paragraph-short {
+  font-size: 2.0rem;
+ }
+
+.paragraph-short::after {
+  content: '';
+  display: block;
+  background: #e0e0e0;
+  width: 100%;
+  height: 1px;
+  margin-top: 20px; }
+
+.container {
+  max-width: 1200px;
+  background: url(https://img.freepik.com/free-photo/cardboard-sheet-paper-abstract-texture-background_7182-2105.jpg?size=626&ext=jpg) repeat;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2); }
+
+.headline {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr min-content;
+  grid-gap: 30px; }
+
+main h1 {
+  text-align: center; }
+
+.publish {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  text-align: center; }
+
+.btn-secondary {
+  padding: 16px 0;
+  color: #bbbbbb;
+  border-top: solid 1px #bbbbbb;
+  transition: all .4s; }
+  .btn-secondary:hover {
+    color: #222;
+    border-top: solid 1px #222; }
+
+.img-small {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  margin-bottom: 0;
+  margin-right: 20px; }
+
+.extra-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 30px;
+  grid-template-areas: "first second third" "first second forth" "fifth sixth  sixth"; }
+  .extra-news .news:nth-child(1) {
+    grid-area: first; }
+  .extra-news .news:nth-child(2) {
+    grid-area: second; }
+  .extra-news .news:nth-child(3) {
+    grid-area: third;
+    height: 200px; }
+  .extra-news .news:nth-child(4) {
+    margin-top: 290px;
+    grid-area: forth; }
+  .extra-news .news:nth-child(5) {
+    grid-area: fifth;
+    margin-top: -20px; }
+  .extra-news .news:nth-child(6) {
+    grid-area: sixth;
+    margin-top: -20px; }
+
+/*# sourceMappingURL=styles.css.map */
+
+
+
