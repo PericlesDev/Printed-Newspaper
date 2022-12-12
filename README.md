@@ -13,3 +13,9 @@
 
 - HTML5
 - CSS3
+
+<h2>Principais caracteristicas do projeto:</h2>
+
+- Semântico ✔
+- Acessivel ✔
+- Responsivo(em construção...🚧) ❌
